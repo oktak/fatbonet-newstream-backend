@@ -4,7 +4,8 @@
   "info": {
     "singularName": "newstream",
     "pluralName": "newstreams",
-    "displayName": "Newstream"
+    "displayName": "Newstream",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -26,7 +27,7 @@
     "url": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "type": "string"
@@ -34,7 +35,7 @@
     "dateHappened": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "type": "datetime"
@@ -68,7 +69,7 @@
     "public": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "type": "boolean",

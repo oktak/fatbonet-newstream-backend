@@ -794,6 +794,7 @@ export interface ApiNewstreamNewstream extends Schema.CollectionType {
     singularName: 'newstream';
     pluralName: 'newstreams';
     displayName: 'Newstream';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -813,13 +814,13 @@ export interface ApiNewstreamNewstream extends Schema.CollectionType {
     url: Attribute.String &
       Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     dateHappened: Attribute.DateTime &
       Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     content: Attribute.Blocks &
@@ -848,7 +849,7 @@ export interface ApiNewstreamNewstream extends Schema.CollectionType {
       Attribute.Required &
       Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }> &
       Attribute.DefaultTo<false>;
