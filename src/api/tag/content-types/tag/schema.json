@@ -21,16 +21,15 @@
           "localized": true
         }
       },
-      "type": "string",
-      "unique": true
+      "type": "string"
     },
     "count": {
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
       },
-      "type": "biginteger"
+      "type": "integer"
     },
     "description": {
       "pluginOptions": {

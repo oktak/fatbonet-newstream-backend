@@ -11,7 +11,20 @@ cd fatbonet-newstream-backend
 npm install knex@0.21.1 objection@2.1.3 pg@8.0.3 @strapi/provider-upload-aws-s3 strapi-health-plugin
 ```
 
-### Troubleshoot
+## Deployment
+
+### Local - for adding content type
+```bash
+NODE_ENV=production npm run develop
+```
+
+
+# Reference
+
+- health check endpoint
+  - https://market.strapi.io/plugins/strapi-health-plugin
+
+# Troubleshoot
 
 - Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
 

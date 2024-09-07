@@ -4,8 +4,7 @@
   "info": {
     "singularName": "newstream",
     "pluralName": "newstreams",
-    "displayName": "newstream",
-    "description": ""
+    "displayName": "Newstream"
   },
   "options": {
     "draftAndPublish": true
@@ -16,30 +15,18 @@
     }
   },
   "attributes": {
-    "entries": {
-      "displayName": "entry",
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "entries.entry"
-    },
     "title": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "url": {
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
       },
       "type": "string"
@@ -47,11 +34,10 @@
     "dateHappened": {
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
       },
-      "type": "datetime",
-      "required": true
+      "type": "datetime"
     },
     "content": {
       "pluginOptions": {
@@ -82,7 +68,7 @@
     "public": {
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
       },
       "type": "boolean",
